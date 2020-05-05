@@ -1,6 +1,18 @@
 {
 	"boxes" : [ 		{
 			"box" : 			{
+				"maxclass" : "comment",
+				"text" : "build a set of durations for a 4/4 measure in bach.score, using recursive stochastic process allowing for different values (4/4, 2/4, 1/4...) and different subdivisions\n\nby michele zaccagnini 2020",
+				"linecount" : 11,
+				"id" : "obj-49",
+				"patching_rect" : [ 889.0, 192.0, 150.0, 158.0 ],
+				"numinlets" : 1,
+				"numoutlets" : 0
+			}
+
+		}
+, 		{
+			"box" : 			{
 				"maxclass" : "newobj",
 				"text" : "bgcolor 0.56 0.45533 0.43 0.3",
 				"id" : "obj-40",
